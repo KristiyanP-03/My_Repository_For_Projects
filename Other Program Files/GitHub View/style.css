@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Main content styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Links styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
